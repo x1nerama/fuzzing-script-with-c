@@ -1,3 +1,8 @@
+/* 
+  The header containing the necessary tools.
+*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -10,7 +15,12 @@ int strLenght(char *str) {
     }
 }
 
+
 char *concStr(char *str, char *addStr) {
+/*
+    This is Function, concatenates two sent strings. 
+    Like strcat command. 
+*/
    int x = 0;
    int y = 0;
     for(; str[x] != '\x00'; x++);
