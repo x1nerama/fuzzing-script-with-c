@@ -1,3 +1,3 @@
-# fuzzing-script-with-c
-Simple Fuzzing Script with C 
-deneme
+### Simple Fuzzing Script written in C.
+
+### This fuzzing was written for vulnserver.
