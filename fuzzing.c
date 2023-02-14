@@ -40,8 +40,8 @@ int main() {
             }
             for(; x < nm; x++) {
                 concStr(buff, addStr);
-        	  	printf("Buff Lenght --> %ld\n", strlen(buff));
-	        }
+        	printf("Buff Lenght --> %ld\n", strlen(buff));
+	    }
             int wr = write(scket, buff, sizeof(buff));
             if (wr == -1) {
                 printf("%s\n", strerror(errno));
