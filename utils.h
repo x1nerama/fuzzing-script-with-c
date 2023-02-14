@@ -1,7 +1,6 @@
 /* 
   The header containing the necessary tools.
 */
-
 #include <stdio.h>
 int len = 0;
 
