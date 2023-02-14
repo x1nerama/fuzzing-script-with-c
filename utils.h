@@ -2,10 +2,7 @@
   The header containing the necessary tools.
 */
 
-
 #include <stdio.h>
-#include <stdlib.h>
-
 int len = 0;
 
 int strLenght(char *str) {
