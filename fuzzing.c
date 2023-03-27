@@ -14,8 +14,8 @@
 
 /* 
 
-    author: bekoo
-    github: https://github.com/amaym0nn
+    coder: devtbenoth
+    github: https://github.com/devtbenoth
     For VulnServer 
 
 */
